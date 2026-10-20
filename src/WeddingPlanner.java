@@ -28,19 +28,43 @@ _________________
 ** All problems use more than one design pattern
 Problem 1
 Wedding Planning System Design Assignment
-Scenario: You are tasked with designing a system for a Wedding Planning Company that offers various types of wedding packages, such as Luxury Wedding, Traditional Wedding, and Destination Wedding.
-Each package can be customized with options such as venue, catering, decorations, and photography.
-Additionally, the system should ensure that only one instance of the wedding planner exists throughout the company's operations.
+Scenario: You are tasked with designing a system for a Wedding Planning Company that offers various types of
+wedding packages, such as
+    - Luxury Wedding,
+    - Traditional Wedding, and
+    - Destination Wedding.
+
+Each customized with options such as
+    - venue,
+    - catering,
+    - decorations, and
+    - photography.
+
+** ensure that only one instance of the wedding planner exists throughout the company's operations.
+
+
 Classes to Implement:
-WeddingPackage: An abstract class that defines the structure of a wedding package.
-LuxuryWedding, TraditionalWedding, DestinationWedding: Concrete implementations of the WeddingPackage class.
-WeddingFactory: A class responsible for creating different types of wedding packages.
-WeddingPlanner: A class that ensures only one instance of the wedding planner is created for the company.
-WeddingPackageBuilder: A class that allows customization of wedding packages (e.g., venue, catering, decorations, photography).
-Venue: The venue selected for the wedding, such as Beach or Mountain.
-Catering: Catering options, such as Classic Buffet or Gourmet Buffet.
-Decorations: Decoration preferences, such as Elegant Flowers or No Flowers.
-Photography: Photography options, such as Professional or Local.
+WeddingPackage:
+    - An abstract class that defines the structure of a wedding package.
+
+LuxuryWedding, TraditionalWedding, DestinationWedding:
+    - Concrete implementations of the WeddingPackage class.
+
+WeddingFactory:
+    - A class responsible for creating different types of wedding packages.
+
+WeddingPlanner: (main)
+    - A class that ensures only one instance of the wedding planner is created for the company.
+
+WeddingPackageBuilder:
+    - A class that allows customization of wedding packages (e.g., venue, catering, decorations, photography).
+
+CUSTOMIZABLE OPTIONS:
+    - Venue: The venue selected for the wedding, such as Beach or Mountain.
+    - Catering: Catering options, such as Classic Buffet or Gourmet Buffet.
+    - Decorations: Decoration preferences, such as Elegant Flowers or No Flowers.
+    - Photography: Photography options, such as Professional or Local.
+
 
 Task:
 Identify and Justify Design Choices:
