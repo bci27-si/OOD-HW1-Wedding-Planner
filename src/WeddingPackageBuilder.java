@@ -1,7 +1,7 @@
 public class WeddingPackageBuilder{
     //locaiton
-    private beachVenue;
-    private mountainVenue;
+    private beachVenu;
+    private mountainVenu;
     // flowers
     private elegantFlowers;
     private noFlowers;
@@ -14,6 +14,37 @@ public class WeddingPackageBuilder{
     private classicBuffet;
     private gourmetBuffet;
 
+
+    public WeddingPackage setBeachVenu(String Beach){
+        this.Beach;
+        return this;
+    }
+    public WeddingPackage setMountainVenu(String Mountain){
+        this.Mountain;
+        return this;
+    }
+    public WeddingPackage setElegantFlowers(String Flowers){
+        this.Flowers;
+        return this;
+    }
+    public WeddingPackage setnoFlowers(){
+        return this;
+    }
+    // do i need to do one method for hotography and user types in set photography or ?
+
+    public WeddingPackage setPhotography(String beach){
+        this.beach;
+        return this;
+    }
+    public WeddingPackage setLocalPhotography(String beach){
+        this.beach;
+        return this;
+    }
+
+    public WeddingPackage setCatering(String FoodChoice){
+        this.FoodChoice; //etc
+        return this;
+    }
 
 
 

@@ -1,8 +1,8 @@
-public class Venue {
+public class Venu {
 
 // im assuming this is how, considering there is a massive class just for these two methods
     //
-    public String beachVenue(int chooseSubVenu){
+    public String beachVenu(int chooseSubVenu){
 
         if(chooseSubVenu = 1){
             venu = "Casperson beach"
@@ -12,11 +12,11 @@ public class Venue {
             venu = "Sharkeys Beach"
         }
 
-        return venu;
+        return " Venu 1 or 2 not chosen";
     }
 
 
-    public String mountainVenue(int chooseSubVenu){
+    public String mountainVenu(int chooseSubVenu){
         System.out.println("===== Chosen Venu =====");
         if(chooseSubVenu = 1){
             venu = "Mount Vesuvious"
@@ -26,11 +26,9 @@ public class Venue {
             venu = "Mount Olympus"
         }
 
-        return venu;
+        return " Venu 1 or 2 not chosen";
 
     }
 
-
-
-
 }
+
