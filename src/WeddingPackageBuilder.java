@@ -1,4 +1,4 @@
-public class WeddingPackageBuilder{
+public abstract class WeddingPackageBuilder{
     //locaiton
     private beachVenu;
     private mountainVenu;
@@ -36,8 +36,8 @@ public class WeddingPackageBuilder{
         this.beach;
         return this;
     }
-    public WeddingPackage setLocalPhotography(String beach){
-        this.beach;
+    public WeddingPackage setLocalPhotography(Boolean photography){
+        this.photography;
         return this;
     }
 
@@ -45,14 +45,6 @@ public class WeddingPackageBuilder{
         this.FoodChoice; //etc
         return this;
     }
-
-
-
-
-
-
-
-
 
 
 
