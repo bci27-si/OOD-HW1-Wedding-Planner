@@ -2,6 +2,29 @@ public class Main {
 
     public static void main(String[] args) {
         // mian function
+        System.out.println("|=================================|");
+        System.out.println("| Welcome to the wedding Planner! |");
+        System.out.println("|=================================|");
+
+
+
+        // create a Destinationsl Wedding in the mountains
+
+        // create a Destinational Wedding on the beach
+
+        // create a Traditional Wedding in the mountains
+
+        // create a Traditional Wedding on the beach
+
+        // create a Luxury Wedding in the mountains
+
+        //create a Luxury Wedding on the beach
+
+
+// I could create a full version,
+// i would use scanner for the user to build the wedding,
+// and the program would find the closest version, or create a custom one
+
 
     }
 
@@ -16,7 +39,6 @@ Factory - Wedding Package is an abstract class.
 Builder wedding package builder, allows customization
 
 Singleton - Wedding Planner is a Class that is supposed to ensure there is only one instance.
-
 
 WRONG - Abstract Factory
 _________________
@@ -41,7 +63,6 @@ Each customized with options such as
     - photography.
 
 ** ensure that only one instance of the wedding planner exists throughout the company's operations.
-
 
 Classes to Implement:
 WeddingPackage:

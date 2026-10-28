@@ -1,13 +1,14 @@
-public class Venue {
+public class Catering {
 
+    private Catering buffet;
 // im assuming this is how, considering there is a massive class just for these two methods
     //
-    public String classicBuffet(){
-        return "Clasic Buffet";
+    public Catering classicBuffet(){
+        return this.buffet;
     }
 
-    public String LuxuryBuffet(){
-        return "Luxury Buffet";
+    public Catering LuxuryBuffet(){
+        return this.buffet;
     }
 
 }

@@ -1,8 +1,18 @@
-public class Venue {
+public class Decor {
 
-// im assuming this is how, considering there is a massive class just for these two methods
+    private Decor flowers;
+    // im assuming this is how, considering there is a massive class just for these two methods
     //
-    public String Elegant(int FlowerType){
+    public Decor Elegant(){
+        return this.flowers;
+    }
+
+    public Decor noFlowers(){
+        return this.flowers;
+
+    }
+}
+/*
 
         if(chooseSubVenu = 1){
             venu = "Rose Vases"
@@ -13,13 +23,4 @@ public class Venue {
         }
 
         return " Flowers 1 or 2 not chosen";
-    }
-
-
-    public String noFlowers(){
-        return "No Flowers";
-
-    }
-
-
-}
+ */

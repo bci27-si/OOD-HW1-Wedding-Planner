@@ -1,53 +1,40 @@
 public abstract class WeddingPackageBuilder{
     //locaiton
-    private beachVenu;
-    private mountainVenu;
+    private Venue place;
+    //private mountainVenu;
     // flowers
-    private elegantFlowers;
-    private noFlowers;
+    private Decor style;
+    //private noFlowers;
 
     //photos
-    private professionalPhotography;
-    private locaPhotography;
+    private Photography photography;
+    //private locaPhotography;
 
     // katernig
-    private classicBuffet;
-    private gourmetBuffet;
+    private Catering food;
+    //private gourmetBuffet;
 
 
-    public WeddingPackage setBeachVenu(String Beach){
-        this.Beach;
+    public WeddingPackage setBeachVenu(Venue place){
+        this.place = place;
         return this;
     }
-    public WeddingPackage setMountainVenu(String Mountain){
-        this.Mountain;
-        return this;
-    }
-    public WeddingPackage setElegantFlowers(String Flowers){
-        this.Flowers;
-        return this;
-    }
-    public WeddingPackage setnoFlowers(){
+
+    public WeddingPackage setNoFlowers(Decor style){
+        this.style = style;
         return this;
     }
     // do i need to do one method for hotography and user types in set photography or ?
 
-    public WeddingPackage setPhotography(String beach){
-        this.beach;
-        return this;
-    }
-    public WeddingPackage setLocalPhotography(Boolean photography){
-        this.photography;
+    public WeddingPackage setPhotography(Photography photography){
+        this.photography = photography;
         return this;
     }
 
-    public WeddingPackage setCatering(String FoodChoice){
-        this.FoodChoice; //etc
+    public WeddingPackage setCatering(Catering food){
+        this.food; //etc
         return this;
     }
-
-
-
 
 }
 
@@ -59,7 +46,24 @@ Catering: Catering options, such as Classic Buffet or Gourmet Buffet.
 Decorations: Decoration preferences, such as Elegant Flowers or No Flowers.
 Photography: Photography options, such as Professional or Local.
 
-
  */
 
+/*
+
+    public WeddingPackage setMountainVenu(String Mountain){
+        this.venue;
+        return this;
+    }
+
+    public WeddingPackage setElegantFlowers(String Flowers){
+        this.Flowers;
+        return this;
+    }
+
+    public WeddingPackage setLocalPhotography(Boolean photography){
+        this.photography;
+        return this;
+    }
+
+ */
 

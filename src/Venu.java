@@ -1,10 +1,21 @@
 public class Venu {
 
+    private venu
+
 // im assuming this is how, considering there is a massive class just for these two methods
     //
-    public String beachVenu(int chooseSubVenu){
+    public Venu setBeachVenu(){
+        return this.setBeachVenu;
+    }
 
-        if(chooseSubVenu = 1){
+
+    public Venu setMountainVenu(){
+        return  this.setMountainVenu;
+    }
+
+}
+/*
+ if(chooseSubVenu = 1){
             venu = "Casperson beach"
         }
 
@@ -13,11 +24,10 @@ public class Venu {
         }
 
         return " Venu 1 or 2 not chosen";
-    }
 
 
-    public String mountainVenu(int chooseSubVenu){
-        System.out.println("===== Chosen Venu =====");
+
+System.out.println("===== Chosen Venu =====");
         if(chooseSubVenu = 1){
             venu = "Mount Vesuvious"
         }
@@ -28,7 +38,5 @@ public class Venu {
 
         return " Venu 1 or 2 not chosen";
 
-    }
-
-}
+ */
 
